@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-weight: lighter;
+}
+
+h1{
+    opacity: 0.25;
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top:15%;
+    text-shadow: 7px 7px 7px black;
+}
+
+.clock{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid 5px rgb(255, 255, 255);
+    box-shadow: 5px 5px 25px;
+}
+
+#seconds-hand{
+    position: absolute;
+    height: 130px;
+    width: 2px;
+    background-color: white;
+    left:149px;
+    bottom: 149px;
+    transform-origin: 0 100%;
+    box-shadow: 1px 1px 6px;
+}
+
+#minutes-hand{
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: white;
+    left:149px;
+    bottom: 149px;
+    transform-origin: 0 100%;
+    box-shadow: 1px 1px 6px;
+}
+
+#hours-hand{
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+    left:149px;
+    bottom: 149px;
+    transform-origin: 0 100%;
+    box-shadow: 1px 1px 6px;
+}
+
+#center{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    left:142.5px;
+    bottom: 142.5px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px;
+}
